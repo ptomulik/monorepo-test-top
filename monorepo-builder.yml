@@ -1,0 +1,6 @@
+parameters:
+  package_directories:
+    - 'packages'
+  directories_to_repositories:
+    packages/foo: "git@github.com:ptomulik/monorepo-test-foo.git"
+    packages/bar: "git@github.com:ptomulik/monorepo-test-bar.git"
